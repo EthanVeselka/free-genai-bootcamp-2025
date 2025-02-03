@@ -1,0 +1,19 @@
+Cheatsheet:
+Word	Japanese	Type
+raven	カラス（からす）	Noun
+morning	朝（あさ）	Noun
+garden	庭（にわ）	Noun
+to see	見る（みる）	Transitive Ichidan Verb
+to look	見る（みる）	Transitive Ichidan Verb
+Sentence structure:
+[Time] [Object] [Verb-past]?, [Subject] [Verb-past] [Location]
+Considerations:
+This is a compound sentence with two parts connected by a period
+The first part is asking about a past action
+The second part is stating a past action
+Possible next steps:
+attempt an answer
+ask clues about time expressions
+ask clues about question formation
+ask clues about verb conjugation
+ask clues about sentence connection
