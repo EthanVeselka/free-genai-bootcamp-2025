@@ -71,7 +71,7 @@ Here is an example of an incorrect output, and a correct output with the same se
     | to leave | 出す（だす） | Transitive Godan Verb |
 
     Sentence structure:
-    [Location] [Subject] [Verb], [Object] [Verb-past]?
+    [Location] [Subject] [Verb], [Object] [Verb]?
 
     Considerations:
     - This is a compound sentence with two parts connected by a comma
