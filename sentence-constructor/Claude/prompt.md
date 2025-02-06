@@ -98,6 +98,8 @@ Please read this file so you can see more examples to provide better output
 <file>japanese-teaching-test.md</file>
 
 
+Reference examples.xml for good and bad examples
+
 ## Last Checks
 
 - Make sure you read all the example files tell me that you have.

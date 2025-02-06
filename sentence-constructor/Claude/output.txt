@@ -1,0 +1,90 @@
+### Within context of .xml examples, Explanatory mode
+### 1
+I confirm that I have read and understood all the provided files, including the Japanese teaching test documentation, examples, sentence structure examples, and considerations examples. I understand that my role is to be a Japanese language teacher for JLPT5 (beginner) level students.
+From the examples.xml file, I've noted the key differences between good and bad responses, particularly around:
+
+Providing concise vocabulary tables with 3 columns (Japanese, Romaji, English)
+Showing conceptual sentence structures without particles
+Giving clues without revealing conjugations
+
+From the sentence-structure-examples.xml file, I understand how to format sentence structures properly, using brackets and avoiding particles.
+From the considerations-examples.xml file, I see that responses should be brief and focused.
+I'm ready to help teach Japanese, following the state transition rules:
+Setup -> Attempt
+Setup -> Question
+Clues -> Attempt
+Attempt -> Clues
+Attempt -> Setup
+I'll maintain the vocabulary table format with exactly 3 columns: Japanese, Romaji, and English.
+Would you like to begin with an English sentence to translate to Japanese?
+
+
+Input: Hello, My name is Ethan, nice to meet you
+
+
+State: Setup
+Let me help you with this introduction. Here's the essential vocabulary you'll need:
+JapaneseRomajiEnglishこんにちはkonnicha wahello名前namaenameはじめましてhajimemashitenice to meet you
+Sentence structure:
+[Greeting], [Name] [Verb], [Greeting].
+Since this is a self-introduction, there are some important considerations:
+
+In Japanese, we typically start with a greeting
+For names, we often use the word です (desu) to connect them
+The last part, "nice to meet you," is a set greeting phrase in Japanese
+When introducing ourselves, we often use わたし (watashi) for "I/me"
+
+You can try forming this sentence, or you can ask for specific clues about:
+
+How to connect your name to the sentence
+The proper word order for introductions
+How to use です in this context
+
+Would you like to try forming the sentence, or would you like some specific clues first?
+
+
+I'd like some clues first
+
+
+State: Clues
+Let me help break down how Japanese introductions typically work.
+When we introduce ourselves in Japanese, we follow a different pattern than English. Think of it like building blocks that we stack in a specific order.
+In English, you're saying "Hello" + "My name is..." + "Nice to meet you." But in Japanese, the natural flow is a bit different. We start with the greeting こんにちは, which opens the conversation.
+Then, for the name part, Japanese people typically say "I" first, followed by the topic they're talking about (their name), and then use です to confirm it. It's similar to saying "[As for me], [name] is..." Rather than "My name is..."
+Finally, はじめまして comes at the end, like putting a polite bow on the whole introduction. It's a set phrase that specifically means "Nice to meet you" in introduction contexts.
+Would you like to try forming the sentence now, or would you like more specific clues about any of these parts?
+
+
+konichiwa, watashi Ethan desu, hajimemashite
+
+
+State: Attempt
+Excellent attempt! Let me explain what you wrote and how accurately it conveys your introduction:
+こんにちは、わたし は Ethan です、はじめまして
+Your sentence structure is almost perfect! You've successfully:
+
+Started with the greeting こんにちは
+Followed with わたし to introduce yourself
+Used です correctly to state your name
+Ended with the appropriate greeting はじめまして
+
+There's just one tiny refinement we could make. In Japanese, when we're marking what we're talking about (in this case, ourselves), we use は (wa) after わたし. This particle は helps indicate that you're the topic of the sentence - it's like saying "Speaking of me..." before giving your name.
+Think of は like a spotlight that shines on what you're talking about. When you say わたし は, you're putting the spotlight on yourself before telling people your name.
+Would you like to try one more time with this small adjustment? Or would you like to move on to practicing a different sentence? Remember, you've gotten the core structure absolutely right - this is just adding a final polish to make it sound completely natural in Japanese.
+The basic flow you've mastered is:
+Greeting → Self-reference → Name → Polite ending
+This is exactly how native Japanese speakers would structure their self-introductions!
+
+
+konichiwa, watashi wa Ethan desu, hajimemashite
+
+
+State: Attempt
+Perfect! You've written a flawless Japanese self-introduction! Let me explain what you wrote and why it works so beautifully:
+こんにちは、わたし は Ethan です、はじめまして
+Your sentence flows naturally and follows the exact pattern that native Japanese speakers use. Let's break down why each part works so well:
+The opening こんにちは serves as your initial greeting, just like "hello" in English. In Japanese culture, starting with a greeting is essential for setting a polite and friendly tone.
+Then you've used わたし は perfectly. The わたし identifies you as the speaker, and the は particle you added does something special in Japanese - it marks you as the topic of conversation. Think of は like drawing a gentle arrow pointing to what you're talking about. It's similar to saying "Speaking of me..." in a very elegant way.
+The です after your name works like an equals sign, elegantly connecting "watashi" (I) with "Ethan." It's saying "I = Ethan" in a polite and proper way.
+Finally, はじめまして wraps up your introduction beautifully. This phrase carries more meaning than just "nice to meet you" - it acknowledges that this is your first meeting and expresses hope for a good relationship going forward.
+You've mastered a perfect Japanese self-introduction! Would you like to try another type of sentence, or would you like to learn some variations on self-introductions? For example, we could learn how to add information about where you're from or what you do.

@@ -1,71 +1,168 @@
-<example>
-    <user:input>
-        Bears are at the door, did you leave the garbage out?
-    </user:input>
-    <score>4</score>
-    <score_reasons>
-    - BAD: in the vocabulary table it did not show the japanese characters, the cells are just blank
-    - BAD: the beginner sentence is uncessary, should instead start showing the vocabulary table
-    - BAD: In the clues we should not provide the polite form of verbs, because the student needs to figure that out.
-    - BAD: The Sentence structure shows the particles.
-    </score_reasons>
-    <assistant:output>
-    Let's break down the sentence into smaller parts. Here's a possible table of vocabulary to get you started:
+<?xml version="1.0" encoding="UTF-8"?>
+<examples>
+    <example>
+        <user:input>
+            Bears are at the door, did you leave the garbage out?
+        </user:input>
+        <score>4</score>
+        <score_reasons>
+        - BAD: in the vocabulary table it did not show the japanese characters, the cells are just blank
+        - BAD: the beginner sentence is uncessary, should instead start showing the vocabulary table
+        - BAD: In the clues we should not provide the polite form of verbs, because the student needs to figure that out.
+        - BAD: The Sentence structure shows the particles.
+        </score_reasons>
+        <assistant:output>
+        Let's break down the sentence into smaller parts. Here's a possible table of vocabulary to get you started:
 
-    | Japanese | Romaji | English
-    |          | kuma	| bear |
-    |          | tobira | door |
-    |          | gomi	| garbage |
-    |          | noko	| leave behind |
+        | Japanese | Romaji | English
+        |          | kuma	| bear |
+        |          | tobira | door |
+        |          | gomi	| garbage |
+        |          | noko	| leave behind |
 
-    Now, let's think about the sentence structure. We have two clauses: "Bears are at the door" and "did you leave the garbage out?".
-    For the first clause, we can use the verb (aru) which means "to exist" or "to be present". We'll need to figure out the correct form of the verb to use.
-    For the second clause, we can use the verb (nokosu) which is a more polite way of saying "to leave behind". Again, we'll need to figure out the correct form of the verb to use.
+        Now, let's think about the sentence structure. We have two clauses: "Bears are at the door" and "did you leave the garbage out?".
+        For the first clause, we can use the verb (aru) which means "to exist" or "to be present". We'll need to figure out the correct form of the verb to use.
+        For the second clause, we can use the verb (nokosu) which is a more polite way of saying "to leave behind". Again, we'll need to figure out the correct form of the verb to use.
 
-    Sentence structure:
+        Sentence structure:
 
-    [Clause 1: Bears are at the door]
-    [Subject] wa [Location] ni [Verb] desu
-    [Clause 2: did you leave the garbage out?]
-    [Verb] masu ka
+        [Clause 1: Bears are at the door]
+        [Subject] wa [Location] ni [Verb] desu
+        [Clause 2: did you leave the garbage out?]
+        [Verb] masu ka
 
-    Your turn! Can you try to fill in the blanks using the vocabulary and sentence structure provided?
-    </assistant:output>
-</example>
+        Your turn! Can you try to fill in the blanks using the vocabulary and sentence structure provided?
+        </assistant:output>
+    </example>
 
-<example>
-    <user:input>
-        Bears are at the door, did you leave the garbage out?
-    </user:input>
-    <score>10/score>
-    <score_reasons>
-    - GOOD: Doesn't provide verbose text at the start, and shows vocabulary immediatly
-    - GOOD: Shows conceptual sentence strucutre
-    - GOOD: Clues don't give away any of the tense of conjugations
-    </score_reasons>
-    <assistant:output>
-    Cheatsheet:
-    | Word | Japanese | Type |
-    |------|----------|------|
-    | bear | 熊（くま） | Noun |
-    | door | ドア | Noun |
-    | garbage | ゴミ | Noun |
-    | to be (location) | いる | Intransitive Ichidan Verb |
-    | to leave | 出す（だす） | Transitive Godan Verb |
+    <example>
+        <user:input>
+            Bears are at the door, did you leave the garbage out?
+        </user:input>
+        <score>10</score>
+        <score_reasons>
+        - GOOD: Doesn't provide verbose text at the start, and shows vocabulary immediately
+        - GOOD: Shows conceptual sentence strucutre
+        - GOOD: Clues don't give away any of the tense of conjugations
+        </score_reasons>
+        <assistant:output>
+        Cheatsheet:
+        | Word | Japanese | Type |
+        |------|----------|------|
+        | bear | 熊（くま） | Noun |
+        | door | ドア | Noun |
+        | garbage | ゴミ | Noun |
+        | to be (location) | いる | Intransitive Ichidan Verb |
+        | to leave | 出す（だす） | Transitive Godan Verb |
 
-    Sentence structure:
-    [Location] [Subject] [Verb], [Object] [Verb]?
+        Sentence structure:
+        [Location] [Subject] [Verb], [Object] [Verb]?
 
-    Considerations:
-    - This is a compound sentence with two parts connected by a comma
-    - The first part is stating a location where something exists
-    - The second part is asking about a past action
+        Considerations:
+        - This is a compound sentence with two parts connected by a comma
+        - The first part is stating a location where something exists
+        - The second part is asking about a past action
 
-    Possible next steps:
-    - attempt an answer
-    - ask clues about location marking
-    - ask clues about how to connect two sentences
-    - ask clues about question formation
-    - ask clues about verb conjugation
-    </assistant:output>
-</example>
+        Possible next steps:
+        - attempt an answer
+        - ask clues about location marking
+        - ask clues about how to connect two sentences
+        - ask clues about question formation
+        - ask clues about verb conjugation
+        </assistant:output>
+    </example>
+    
+    <example>
+        <user:input>Did you eat lunch at the restaurant?</user:input>
+        <score>10</score>
+        <score_reasons>
+            - GOOD: Vocabulary is complete, and no unnecessary words are added.
+            - GOOD: Sentence structure is conceptual and avoids particles.
+            - GOOD: Clues don’t provide conjugations, forcing the student to figure them out.
+        </score_reasons>
+        <assistant:output>
+            <vocabulary>
+                <entry japanese="昼ごはん" romaji="hirugohan" english="lunch"/>
+                <entry japanese="食べる" romaji="taberu" english="to eat"/>
+                <entry japanese="レストラン" romaji="resutoran" english="restaurant"/>
+            </vocabulary>
+            <sentence_structure>[Location] [Object] [Verb]?</sentence_structure>
+            <clues>
+                <clue>This is a yes/no question, so think about how to form questions in Japanese.</clue>
+                <clue>The verb "to eat" needs to be conjugated into past tense.</clue>
+                <clue>"At the restaurant" requires a location marker.</clue>
+            </clues>
+        </assistant:output>
+    </example>
+
+    <example>
+        <user:input>The cat is under the table, and it is sleeping.</user:input>
+        <score>9</score>
+        <score_reasons>
+            - GOOD: Sentence structure is clear and properly formatted.
+            - GOOD: Clues guide the student without giving away particles.
+            - BAD: The verb "to exist" is not explicitly categorized as only for living things, which might be important for clarity.
+        </score_reasons>
+        <assistant:output>
+            <vocabulary>
+                <entry japanese="猫" romaji="neko" english="cat"/>
+                <entry japanese="机" romaji="tsukue" english="table"/>
+                <entry japanese="下" romaji="shita" english="under"/>
+                <entry japanese="いる" romaji="iru" english="to exist (for living things)"/>
+                <entry japanese="寝る" romaji="neru" english="to sleep"/>
+            </vocabulary>
+            <sentence_structure>[Subject] [Location] [Verb], [Subject] [Verb].</sentence_structure>
+            <clues>
+                <clue>The first sentence describes a location, requiring a location marker.</clue>
+                <clue>The second sentence describes an ongoing action.</clue>
+                <clue>"Under" needs the correct structure for location-based expressions.</clue>
+                <clue>The second clause needs a way to refer back to "the cat" without repeating the word.</clue>
+            </clues>
+        </assistant:output>
+    </example>
+
+    <example>
+        <user:input>I will go to the park tomorrow.</user:input>
+        <score>10</score>
+        <score_reasons>
+            - GOOD: Vocabulary table is concise and avoids unnecessary words.
+            - GOOD: Sentence structure is simple and clear.
+            - GOOD: Clues prompt the student to think about conjugation and word order.
+        </score_reasons>
+        <assistant:output>
+            <vocabulary>
+                <entry japanese="明日" romaji="ashita" english="tomorrow"/>
+                <entry japanese="公園" romaji="kouen" english="park"/>
+                <entry japanese="行く" romaji="iku" english="to go"/>
+            </vocabulary>
+            <sentence_structure>[Time] [Subject] [Location] [Verb].</sentence_structure>
+            <clues>
+                <clue>This is a future tense statement. How is future tense typically handled in Japanese?</clue>
+                <clue>The verb "to go" should be in its correct form for this context.</clue>
+                <clue>"Tomorrow" is a time marker that should appear early in the sentence.</clue>
+            </clues>
+        </assistant:output>
+    </example>
+
+    <example>
+        <user:input>I am reading a book in the library.</user:input>
+        <score>4</score>
+        <score_reasons>
+            - BAD: The vocabulary table is incomplete (missing "to read").
+            - BAD: The sentence structure incorrectly includes particles.
+            - BAD: The clues provide too much information, including conjugation hints.
+        </score_reasons>
+        <assistant:output>
+            <vocabulary>
+                <entry japanese="図書館" romaji="toshokan" english="library"/>
+                <entry japanese="本" romaji="hon" english="book"/>
+            </vocabulary>
+            <sentence_structure>[Subject] は [Location] で [Object] を [Verb] ています。</sentence_structure>
+            <clues>
+                <clue>You need to use the て-form to indicate an ongoing action.</clue>
+                <clue>The verb "to read" is an ichidan verb, so remember how it conjugates.</clue>
+                <clue>Use the correct particle to indicate location of action.</clue>
+            </clues>
+        </assistant:output>
+    </example>
+</examples>
