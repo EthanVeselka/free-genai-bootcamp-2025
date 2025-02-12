@@ -1,4 +1,4 @@
-# Database Structure
+# Database Schema
 
 This document outlines the database schema and relationships for the language learning application.
 
