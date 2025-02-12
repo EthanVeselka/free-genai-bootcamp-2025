@@ -1,6 +1,7 @@
 import sqlite3
 import json
 from flask import g
+from pathlib import Path
 
 class Db:
   def __init__(self, database='words.db'):
@@ -109,9 +110,39 @@ class Db:
 
       print(f"Successfully added {len(words)} verbs to the '{group_name}' group.")
 
+  def exists(self):
+    """Check if database file exists and has tables"""
+    if not Path(self.database).exists():
+      return False
+    
+    try:
+      # Create a direct connection just for checking
+      conn = sqlite3.connect(self.database)
+      cursor = conn.cursor()
+      
+      # Check if at least one of our tables exists
+      cursor.execute("""
+          SELECT name FROM sqlite_master 
+          WHERE type='table' AND name='words'
+      """)
+      result = cursor.fetchone() is not None
+      
+      # Clean up
+      cursor.close()
+      conn.close()
+      
+      return result
+    except sqlite3.Error:
+      return False
+
   # Initialize the database with sample data
   def init(self, app):
     with app.app_context():
+      if self.exists():
+        print(f"Database {self.database} already existing and initialized.")
+        return
+        
+      print(f"Initializing database {self.database}...")
       cursor = self.cursor()
       self.setup_tables(cursor)
       self.import_word_json(
@@ -124,7 +155,6 @@ class Db:
         group_name='Core Adjectives',
         data_json_path='seed/data_adjectives.json'
       )
-
       self.import_study_activities_json(
         cursor=cursor,
         data_json_path='seed/study_activities.json'

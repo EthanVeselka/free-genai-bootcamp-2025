@@ -38,9 +38,14 @@ def create_app(test_config=None):
     else:
         app.config.update(test_config)
     
-    # Initialize database first since we need it for CORS configuration
+    # Create database connection
     app.db = Db(database=app.config['DATABASE'])
     
+    # Check db existence
+    if not app.db.exists():
+        print("Database does not exist, initializing...")
+        app.db.init(app)
+        
     # Get allowed origins from study_activities table
     allowed_origins = get_allowed_origins(app)
     
