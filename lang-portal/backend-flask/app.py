@@ -69,6 +69,7 @@ def create_app(test_config=None):
     routes.dashboard.load(app)
     routes.study_activities.load(app)
     
+    
     return app
 
 app = create_app()
