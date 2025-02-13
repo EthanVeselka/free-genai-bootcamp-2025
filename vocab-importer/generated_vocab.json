@@ -1,0 +1,69 @@
+[
+  {
+    "kanji": "天気",
+    "romaji": "tenki",
+    "english": "weather",
+    "parts": [
+      {"kanji": "天", "romaji": ["ten"]},
+      {"kanji": "気", "romaji": ["ki"]}
+    ]
+  },
+  {
+    "kanji": "晴れ",
+    "romaji": "hare",
+    "english": "clear weather",
+    "parts": [
+      {"kanji": "晴", "romaji": ["hare"]},
+      {"kanji": "れ", "romaji": ["re"]}
+    ]
+  },
+  {
+    "kanji": "雨",
+    "romaji": "ame",
+    "english": "rain",
+    "parts": [
+      {"kanji": "雨", "romaji": ["ame"]}
+    ]
+  },
+  {
+    "kanji": "雪",
+    "romaji": "yuki",
+    "english": "snow",
+    "parts": [
+      {"kanji": "雪", "romaji": ["yuki"]}
+    ]
+  },
+  {
+    "kanji": "雷",
+    "romaji": "rai",
+    "english": "thunder",
+    "parts": [
+      {"kanji": "雷", "romaji": ["rai"]}
+    ]
+  },
+  {
+    "kanji": "台風",
+    "romaji": "taifuu",
+    "english": "typhoon",
+    "parts": [
+      {"kanji": "台", "romaji": ["tai"]},
+      {"kanji": "風", "romaji": ["fuu"]}
+    ]
+  },
+  {
+    "kanji": "霧",
+    "romaji": "kiri",
+    "english": "fog",
+    "parts": [
+      {"kanji": "霧", "romaji": ["kiri"]}
+    ]
+  },
+  {
+    "kanji": "氷",
+    "romaji": "kori",
+    "english": "ice",
+    "parts": [
+      {"kanji": "氷", "romaji": ["kori"]}
+    ]
+  }
+]
