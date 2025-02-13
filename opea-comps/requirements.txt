@@ -1,0 +1,6 @@
+opea-comps
+vllm
+fastapi
+uvicorn
+pydantic
+pyyaml 

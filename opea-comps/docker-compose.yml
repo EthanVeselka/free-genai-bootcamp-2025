@@ -1,0 +1,40 @@
+# Copyright (C) 2024 Intel Corporation
+# SPDX-License-Identifier: Apache-2.0
+
+services:
+  llm-service:
+    build: .
+    runtime: nvidia
+    ports:
+      - "8000:8000"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    volumes:
+      - ~/.cache/huggingface:/root/.cache/huggingface
+      - .:/app/opea-comps
+      - ./logs:/app/logs
+      # - ~/.ollama/models:/models
+    environment:
+      - CUDA_VISIBLE_DEVICES=0
+      - BACKEND_TYPE=vllm
+
+  ollama-server:
+    image: ollama/ollama
+    container_name: ollama-server
+    ports:
+      - "8008:11434"
+    environment:
+      no_proxy: ${no_proxy}
+      http_proxy: ${http_proxy}
+      https_proxy: ${https_proxy}
+      LLM_MODEL_ID: ${LLM_MODEL_ID}
+      host_ip: ${host_ip}
+
+networks:
+  default:
+    driver: bridge
