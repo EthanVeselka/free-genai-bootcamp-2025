@@ -1,7 +1,7 @@
 # Japanese Vocabulary Generator Technical Specifications
 
 ## Overview
-A Streamlit-based tool that leverages Groq's LLM API to generate properly formatted Japanese vocabulary entries with kanji breakdowns and romaji translations.
+A Streamlit-based tool that leverages Groq's LLM API to generate formatted Japanese vocabulary examples with kanji breakdowns and romaji translations, organized by category (prompt).
 
 ## Technical Requirements
 
@@ -80,23 +80,46 @@ You are a Japanese language expert. Generate {count} vocabulary words based on t
 - Invalid response structure
 - Missing fields
 
+## Data Management
+
+### Category Organization
+- Entries automatically organized by category
+- Case-insensitive category matching
+- Categories normalized to lowercase with underscores
+- Duplicate entry detection based on kanji field
+
+### Duplicate Handling
+- Checks for existing entries within categories
+- Prevents duplicate kanji entries
+- Merges new unique entries with existing ones
+- Notes new vs duplicate entries
+
+### File Structure
+- Single JSON file (`generated_vocab.json`)
+- Categorized entries
+- UTF-8 encoding
+
 ## Output Formats
 
 ### File Output
 - Location: generated_vocab.json
-- Format: Formatted JSON with proper indentation
+- Format: Categorized JSON
 - UTF-8 encoding
+- Maintains existing entries
+- Prevents duplicates within categories
 
 ### Display Output
 - Limited to 5 entries for readability
 - Syntax highlighted JSON
-- Info message for truncated results
+- Info messages for:
+  - Truncated results
+  - Added/Duplicate entries
 
 ## User Interface
 
 ### Input Controls
 - Text input for category/theme
-- Number input for count (1-25)
+- Number input for count (1-100)
 - Model selection dropdown
 
 ### Output Controls
@@ -109,6 +132,7 @@ You are a Japanese language expert. Generate {count} vocabulary words based on t
 - Model list caching
 - Results persistence
 - Copy operation state management
+- Category state tracking
 
 ## Error Messages
 - API connection failures
@@ -128,8 +152,9 @@ You are a Japanese language expert. Generate {count} vocabulary words based on t
 - Local file system usage only
 
 ## Future Enhancements
-1. Batch processing capabilities
-2. Advanced filtering options
-3. Custom formatting templates
-4. Export to different formats
-5. Integration with vocabulary management systems 
+1. Category management interface
+2. Batch processing capabilities
+3. Advanced filtering options
+4. Custom formatting templates
+5. Export to different formats
+6. Integration with vocabulary management systems 

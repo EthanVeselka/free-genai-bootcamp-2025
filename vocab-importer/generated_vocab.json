@@ -1,4 +1,134 @@
-[
+{
+  "food": [
+  {
+    "kanji": "食べ物",
+    "romaji": "tabemono",
+    "english": "food",
+    "parts": [
+      {"kanji": "食", "romaji": ["ta", "be"]},
+      {"kanji": "べ", "romaji": ["be"]},
+      {"kanji": "物", "romaji": ["mono"]}
+    ]
+  },
+  {
+    "kanji": "魚",
+    "romaji": "sakana",
+    "english": "fish",
+    "parts": [
+      {"kanji": "魚", "romaji": ["sakana"]}
+    ]
+  },
+  {
+    "kanji": "肉",
+    "romaji": "niku",
+    "english": "meat",
+    "parts": [
+      {"kanji": "肉", "romaji": ["niku"]}
+    ]
+  },
+  {
+    "kanji": "米",
+    "romaji": "kome",
+    "english": "rice",
+    "parts": [
+      {"kanji": "米", "romaji": ["kome"]}
+    ]
+  },
+  {
+    "kanji": "野菜",
+    "romaji": "yasai",
+    "english": "vegetable",
+    "parts": [
+      {"kanji": "野", "romaji": ["ya"]},
+      {"kanji": "菜", "romaji": ["sai"]}
+    ]
+  },
+  {
+    "kanji": "水",
+    "romaji": "mizu",
+    "english": "water",
+    "parts": [
+      {"kanji": "水", "romaji": ["mizu"]}
+    ]
+  },
+  {
+    "kanji": "糖",
+    "romaji": "tou",
+    "english": "sugar",
+    "parts": [
+      {"kanji": "糖", "romaji": ["tou"]}
+    ]
+  },
+  {
+    "kanji": "卵",
+    "romaji": "tamago",
+    "english": "egg",
+    "parts": [
+      {"kanji": "卵", "romaji": ["tamago"]}
+    ]
+  },
+  {
+    "kanji": "調味料",
+    "romaji": "choumiryou",
+    "english": "condiment",
+    "parts": [
+      {"kanji": "調", "romaji": ["chou"]},
+      {"kanji": "味", "romaji": ["mi"]},
+      {"kanji": "料", "romaji": ["ryou"]}
+    ]
+  },
+  {
+    "kanji": "麺",
+    "romaji": "men",
+    "english": "noodle",
+    "parts": [
+      {"kanji": "麺", "romaji": ["men"]}
+    ]
+  },
+  {
+    "kanji": "塩",
+    "romaji": "shio",
+    "english": "salt",
+    "parts": [
+      {"kanji": "塩", "romaji": ["shio"]}
+    ]
+  },
+  {
+    "kanji": "油",
+    "romaji": "abura",
+    "english": "oil",
+    "parts": [
+      {"kanji": "油", "romaji": ["abura"]}
+    ]
+  },
+  {
+    "kanji": "辣子",
+    "romaji": "lasoo",
+    "english": "spice",
+    "parts": [
+      {"kanji": "辣", "romaji": ["la"]},
+      {"kanji": "子", "romaji": ["soo"]}
+    ]
+  },
+  {
+    "kanji": "豆",
+    "romaji": "mame",
+    "english": "bean",
+    "parts": [
+      {"kanji": "豆", "romaji": ["mame"]}
+    ]
+  },
+  {
+    "kanji": "香草",
+    "romaji": "kousou",
+    "english": "herb",
+    "parts": [
+      {"kanji": "香", "romaji": ["kou"]},
+      {"kanji": "草", "romaji": ["sou"]}
+    ]
+  }
+],
+  "weather": [
   {
     "kanji": "天気",
     "romaji": "tenki",
@@ -35,10 +165,10 @@
   },
   {
     "kanji": "雷",
-    "romaji": "rai",
+    "romaji": "kaminari",
     "english": "thunder",
     "parts": [
-      {"kanji": "雷", "romaji": ["rai"]}
+      {"kanji": "雷", "romaji": ["kami", "nari"]}
     ]
   },
   {
@@ -59,11 +189,71 @@
     ]
   },
   {
-    "kanji": "氷",
-    "romaji": "kori",
-    "english": "ice",
+    "kanji": "雲",
+    "romaji": "kumo",
+    "english": "cloud",
     "parts": [
-      {"kanji": "氷", "romaji": ["kori"]}
+      {"kanji": "雲", "romaji": ["kumo"]}
+    ]
+  },
+  {
+    "kanji": "曇",
+    "romaji": "kumoru",
+    "english": "overcast",
+    "parts": [
+      {"kanji": "曇", "romaji": ["kumo", "ru"]}
+    ]
+  },
+  {
+    "kanji": "晴",
+    "romaji": "hare",
+    "english": "clear up",
+    "parts": [
+      {"kanji": "晴", "romaji": ["hare"]}
+    ]
+  },
+  {
+    "kanji": "雪降",
+    "romaji": "yukidasu",
+    "english": "to snow",
+    "parts": [
+      {"kanji": "雪", "romaji": ["yuki"]},
+      {"kanji": "降", "romaji": ["dasu"]}
+    ]
+  },
+  {
+    "kanji": "雷雨",
+    "romaji": "raiu",
+    "english": "thunderstorm",
+    "parts": [
+      {"kanji": "雷", "romaji": ["kami", "nari"]},
+      {"kanji": "雨", "romaji": ["ame"]}
+    ]
+  },
+  {
+    "kanji": "竜巻",
+    "romaji": "tatsumaki",
+    "english": "tornado",
+    "parts": [
+      {"kanji": "竜", "romaji": ["tatsu"]},
+      {"kanji": "巻", "romaji": ["maki"]}
+    ]
+  },
+  {
+    "kanji": "熱",
+    "romaji": "atsu",
+    "english": "hot",
+    "parts": [
+      {"kanji": "熱", "romaji": ["atsu"]}
+    ]
+  },
+  {
+    "kanji": "寒",
+    "romaji": "samu",
+    "english": "cold",
+    "parts": [
+      {"kanji": "寒", "romaji": ["samu"]}
     ]
   }
 ]
+}

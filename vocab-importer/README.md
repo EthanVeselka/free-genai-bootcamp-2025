@@ -6,6 +6,8 @@ A Streamlit application that generates Japanese vocabulary with proper kanji, ro
 - Generate Japanese vocabulary based on categories or themes
 - Multiple LLM model options (Mixtral-8x7B recommended)
 - Proper JSON formatting matching seed data structure
+- Automatic category organization
+- Duplicate entry detection
 - Copy to clipboard functionality
 - Auto-save to file
 - Display limiting for better readability
@@ -37,20 +39,34 @@ streamlit run vocab_generator.py
 3. Choose a model (Mixtral-8x7B by default)
 4. Click "Generate"
 5. Use "Copy JSON" to copy the output to your clipboard
-6. Find complete results in `generated_vocab.json`
+6. Find complete results in `generated_vocab.json`, organized by category
 
 ## Output Format
 ```json
-[
-  {
-    "kanji": "食べ物",
-    "romaji": "tabemono",
-    "english": "food",
-    "parts": [
-      {"kanji": "食", "romaji": ["ta", "be"]},
-      {"kanji": "べ", "romaji": ["be"]},
-      {"kanji": "物", "romaji": ["mono"]}
-    ]
-  }
-]
+{
+  "food": [
+    {
+      "kanji": "食べ物",
+      "romaji": "tabemono",
+      "english": "food",
+      "parts": [
+        {"kanji": "食", "romaji": ["ta", "be"]},
+        {"kanji": "べ", "romaji": ["be"]},
+        {"kanji": "物", "romaji": ["mono"]}
+      ]
+    }
+  ],
+  "emotions": [
+    {
+      "kanji": "嬉しい",
+      "romaji": "ureshii",
+      "english": "happy",
+      "parts": [
+        {"kanji": "嬉", "romaji": ["u", "re"]},
+        {"kanji": "し", "romaji": ["shi"]},
+        {"kanji": "い", "romaji": ["i"]}
+      ]
+    }
+  ]
+}
 ``` 

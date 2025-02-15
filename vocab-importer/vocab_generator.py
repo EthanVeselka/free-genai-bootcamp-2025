@@ -150,12 +150,59 @@ def format_vocab_json(data: List[Dict]) -> str:
     
     return '[\n' + ',\n'.join(formatted_entries) + '\n]'
 
-def save_to_file(data: List[Dict]):
-    """Save generated vocabulary to file"""
+def save_to_file(data: List[Dict], category: str):
+    """Save generated vocabulary to file, organized by category"""
     try:
-        formatted_json = format_vocab_json(data)
-        with open('generated_vocab.json', 'w', encoding='utf-8') as f:
-            f.write(formatted_json)
+        filename = 'generated_vocab.json'
+        existing_data = {}
+        
+        # Load existing data if file exists
+        if os.path.exists(filename):
+            with open(filename, 'r', encoding='utf-8') as f:
+                try:
+                    existing_data = json.load(f)
+                except json.JSONDecodeError:
+                    existing_data = {}
+        
+        # Clean and lowercase the category name
+        clean_category = category.lower()
+        clean_category = "".join(x for x in clean_category if x.isalnum() or x in (' ','-','_')).strip()
+        clean_category = clean_category.replace(' ', '_')
+        
+        # Get existing entries for this category
+        existing_entries = existing_data.get(clean_category, [])
+        existing_kanji = {entry['kanji'] for entry in existing_entries}
+        
+        # Add only new entries
+        new_entries = existing_entries.copy()
+        added_count = 0
+        for entry in data:
+            if entry['kanji'] not in existing_kanji:
+                new_entries.append(entry)
+                existing_kanji.add(entry['kanji'])
+                added_count += 1
+        
+        if added_count > 0:
+            # Update category with merged entries
+            existing_data[clean_category] = new_entries
+            
+            # Format each category's data
+            formatted_output = "{\n"
+            for cat, entries in existing_data.items():
+                formatted_output += f'  "{cat}": ' + format_vocab_json(entries) + ",\n"
+            formatted_output = formatted_output.rstrip(",\n") + "\n}"
+            
+            # Save formatted data
+            with open(filename, 'w', encoding='utf-8') as f:
+                f.write(formatted_output)
+                
+            # Update session state
+            st.session_state.current_file = filename
+            
+            # Notify about merged entries
+            if added_count < len(data):
+                st.info(f"Added {added_count} new entries to category '{category}'. {len(data) - added_count} were duplicates.")
+            
     except Exception as e:
         st.error(f"Error saving to file: {str(e)}")
 
@@ -255,7 +302,7 @@ def main():
         count = st.number_input(
             "Count",
             min_value=1,
-            max_value=25,
+            max_value=100,
             value=3
         )
     with col3:
@@ -280,8 +327,8 @@ def main():
                     st.session_state.vocab_data = vocab_data
                     st.session_state.formatted_json = format_vocab_json(vocab_data)
                     
-                    # Save to file
-                    save_to_file(vocab_data)
+                    # Save to categorized file
+                    save_to_file(vocab_data, prompt)
 
     # Display results if they exist in session state
     if 'vocab_data' in st.session_state:
@@ -292,7 +339,8 @@ def main():
         col1, col2 = st.columns([5, 1])
         with col1:
             if len(st.session_state.vocab_data) > 5:
-                st.info(f"Showing first 5 of {len(st.session_state.vocab_data)} entries. Full results saved to file.")
+                filename = st.session_state.current_file.split('/')[-1]
+                st.info(f"Showing first 5 of {len(st.session_state.vocab_data)} entries. Full results saved to {filename}")
         with col2:
             if st.button("Copy JSON", key='copy_button'):
                 copy_to_clipboard(st.session_state.formatted_json)
