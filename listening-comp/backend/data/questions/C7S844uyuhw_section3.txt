@@ -1,0 +1,15 @@
+<question>
+Situation:
+レストランでお店の人を呼びます
+
+Question:
+何と言いますか
+</question>
+
+<question>
+Situation:
+友達の辞書を使いたいです
+
+Question:
+何と言いますか
+</question>

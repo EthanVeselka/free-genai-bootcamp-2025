@@ -1,0 +1,127 @@
+<question>
+Introduction:
+2番学校で男の学生と女の先生が話しています
+
+Conversation:
+男の学生: 椅子をどこに置きますか？
+女の先生: 机の左側に置いてください。
+
+Question:
+男の学生は椅子をどこに置きますか？
+</question>
+
+<question>
+Introduction:
+3番教室で女の先生と男の学生が話しています
+
+Conversation:
+女の先生: どの本を持ってきますか？
+男の学生: あそこの机の上の本を持ってきてください。
+女の先生: どの本ですか？
+男の学生: 黒い本ですか？
+女の先生: いいえ、白い本です。
+女の先生: 熱い本ですか？
+女の先生: いいえ、薄い本です。
+
+Question:
+男の学生はどの本を持ってきますか？
+</question>
+
+<question>
+Introduction:
+5番花屋で店の人と男の人が話しています
+
+Conversation:
+男の人: 花を2本ください。
+店の人: プレゼントですか？
+男の人: はい、プレゼントです。
+男の人: もう1本お願いします。
+店の人: リボンはどうしますか？
+
+Question:
+店の人は花をどうしますか？
+</question>
+
+<question>
+Introduction:
+6番男の人と女の人が話しています
+
+Conversation:
+女の人: 何を持っていきますか？
+男の人: 帽子を忘れないでください。
+男の人: それから皆さんのお茶は私が持っていきます。
+女の人: カップを持ってきてください。
+
+Question:
+女の人は何を持っていきますか？
+</question>
+
+<question>
+Introduction:
+7番女の人がバス会社の人と話しています
+
+Conversation:
+女の人: どのバスに乗りますか？
+バス会社の人: 3番のバスが来ました。
+
+Question:
+女の人はどのバスに乗りますか？
+</question>
+
+<question>
+Introduction:
+2番ダンス教室で山田先生が話しています
+
+Conversation:
+山田先生: クラスは何曜日ですか？
+
+Question:
+山田先生のクラスは何曜日ですか？
+</question>
+
+<question>
+Introduction:
+3番うで女の人と男の人が話しています
+
+Conversation:
+男の人: どこを掃除しますか？
+女の人: 庭の掃除をしてから買い物に行く。
+
+Question:
+男の人はどこを掃除しますか？
+</question>
+
+<question>
+Introduction:
+4番ホテルで先生が学生に話しています
+
+Conversation:
+先生: 学生の部屋は何外ですか？
+
+Question:
+学生の部屋は何外ですか？
+</question>
+
+<question>
+Introduction:
+5番女の人と男の人が話しています
+
+Conversation:
+男の人: 昨日何をしましたか？
+女の人: うちで本を読みました。
+
+Question:
+男の人は昨日何をしましたか？
+</question>
+
+<question>
+Introduction:
+6番デパートで女の人と男の人が話しています
+
+Conversation:
+女の人: 2人は何時に出口の前で会いますか？
+男の人: 8時5分前に会いましょう。
+
+Question:
+2人は何時に出口の前で会いますか？
+</question>

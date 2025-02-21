@@ -1,0 +1,62 @@
+<question>
+Situation:
+会社で男の人と女の人が話しています 女の人は夏休みにどこへ行きたいと言っています
+
+Question:
+女の人は夏休みにどこへ行きたいと言っています
+か
+</question>
+
+<question>
+Situation:
+女の人が電話で話しています リンさんの部屋はどれです
+
+Question:
+リンさんの部屋はどれです
+か
+</question>
+
+<question>
+Situation:
+男の人と女の人が話しています 女の人の誕生日はいつです
+
+Question:
+女の人の誕生日はいつです
+か
+</question>
+
+<question>
+Situation:
+男の人と女の人が話しています 男の人はどうします
+
+Question:
+男の人はどうします
+か
+</question>
+
+<question>
+Situation:
+男の人と女の人が話しています 女の人はどうします
+
+Question:
+女の人はどうします
+か
+</question>
+
+<question>
+Situation:
+男の人と女の人が話しています 男の人は明日何をします
+
+Question:
+男の人は明日何をします
+か
+</question>
+
+<question>
+Situation:
+男の人と女の人が旅行の話をしています バスに乗った後何をします
+
+Question:
+バスに乗った後何をします
+か
+</question>

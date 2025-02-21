@@ -1,0 +1,71 @@
+<question>
+Introduction:
+N5の懲戒試験の2問題です
+
+Conversation:
+1番 男の人と女の人が話しています
+2人はこれから何を買いに行きますか
+
+Question:
+2人はこれから何を買いに行きますか
+</question>
+
+<question>
+Introduction:
+N5の懲戒試験の2問題です
+
+Conversation:
+2番 男の人と女の人が話しています
+先生はどの人ですか
+
+Question:
+先生はどの人ですか
+</question>
+
+<question>
+Introduction:
+N5の懲戒試験の2問題です
+
+Conversation:
+3番 男の人と女の人が話しています
+部屋はどうなりましたか
+
+Question:
+部屋はどうなりましたか
+</question>
+
+<question>
+Introduction:
+N5の懲戒試験の2問題です
+
+Conversation:
+4番 男の人と女の人が話しています
+女の人はお母さんから何をもらいましたか
+
+Question:
+女の人はお母さんから何をもらいましたか
+</question>
+
+<question>
+Introduction:
+N5の懲戒試験の2問題です
+
+Conversation:
+5番 女の人と男の人が話しています
+男の人はどうしますか
+
+Question:
+男の人はどうしますか
+</question>
+
+<question>
+Introduction:
+N5の懲戒試験の2問題です
+
+Conversation:
+6番 女の人と男の人が話しています
+男の人はこれから何をしますか
+
+Question:
+男の人はこれから何をしますか
+</question>

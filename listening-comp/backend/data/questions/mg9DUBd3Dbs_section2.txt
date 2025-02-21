@@ -1,0 +1,76 @@
+<question>
+Introduction:
+会社で男の人と女の人が話しています
+
+Conversation:
+女の人: 今年の夏休みはどこかへ行きますか
+
+Question:
+夏休みにどこへ行きたいと言っていますか
+</question>
+
+<question>
+Introduction:
+女の人が電話で話しています
+
+Conversation:
+女の人: りんさんの部屋はどれですか
+
+Question:
+りんさんの部屋はどれですか
+</question>
+
+<question>
+Introduction:
+男の人と女の人が話しています
+
+Conversation:
+女の人: 誕生日いつ7月8日だけど
+
+Question:
+女の人の誕生日はいつですか
+</question>
+
+<question>
+Introduction:
+男の人と女の人が話しています
+
+Conversation:
+男の人: 傘がないんですどうしますか
+
+Question:
+男の人はどうします
+</question>
+
+<question>
+Introduction:
+男の人と女の人が話しています
+
+Conversation:
+女の人: 読みたかった本そうなんですか
+
+Question:
+女の人はどうしますか
+</question>
+
+<question>
+Introduction:
+男の人と女の人が話しています
+
+Conversation:
+男の人: 明日何をしますか
+
+Question:
+男の人は明日何をしますか
+</question>
+
+<question>
+Introduction:
+男の人と女の人が旅行の話をしています
+
+Conversation:
+女の人: バスに乗った後何をしますか
+
+Question:
+バスに乗った後何をしますか
+</question>

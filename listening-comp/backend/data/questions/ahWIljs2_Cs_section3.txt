@@ -1,0 +1,31 @@
+<question>
+Situation:
+学生が話しています 男の人はこれから何をしますか
+
+Question:
+何と言いますか
+</question>
+
+<question>
+Situation:
+男の人と女の人が話しています 女の人はこれから何をしますか
+
+Question:
+何と言いますか
+</question>
+
+<question>
+Situation:
+学生と留学生が話しています 女の人はこれからどうしますか
+
+Question:
+何と言いますか
+</question>
+
+<question>
+Situation:
+女の人と男の人が話しています 土曜日二人はどこで会いますか
+
+Question:
+何と言いますか
+</question>

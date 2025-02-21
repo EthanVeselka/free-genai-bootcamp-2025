@@ -1,0 +1,76 @@
+<question>
+Introduction:
+懲戒模擬試験 第2回これから N5の懲戒試験を始めます メモを取ってもいいです
+
+Conversation:
+女の人と男の人が話しています いつ プレゼントを買いに行きますか
+
+Question:
+一番いいものは何番ですか
+</question>
+
+<question>
+Introduction:
+懲戒模擬試験 第2回これから N5の懲戒試験を始めます メモを取ってもいいです
+
+Conversation:
+女の人と男の人が話しています いつもバスでどのくらいかかりますか
+
+Question:
+2番
+</question>
+
+<question>
+Introduction:
+懲戒模擬試験 第2回これから N5の懲戒試験を始めます メモを取ってもいいです
+
+Conversation:
+男の人と女の人が話しています 男の人はどこへ行きますか
+
+Question:
+3番
+</question>
+
+<question>
+Introduction:
+懲戒模擬試験 第2回これから N5の懲戒試験を始めます メモを取ってもいいです
+
+Conversation:
+男の人と女の人が話しています 男の人は何をあげますか
+
+Question:
+4番
+</question>
+
+<question>
+Introduction:
+懲戒模擬試験 第2回これから N5の懲戒試験を始めます メモを取ってもいいです
+
+Conversation:
+女の人と男の人が話しています 女の人は今日の朝何をしましたか
+
+Question:
+5番
+</question>
+
+<question>
+Introduction:
+懲戒模擬試験 第2回これから N5の懲戒試験を始めます メモを取ってもいいです
+
+Conversation:
+女の人と男の人が話しています 女の人は何を持ちますか
+
+Question:
+6番
+</question>
+
+<question>
+Introduction:
+懲戒模擬試験 第2回これから N5の懲戒試験を始めます メモを取ってもいいです
+
+Conversation:
+男の人と女の人が話しています ケーキはいくつ買いますか
+
+Question:
+A
+</question>

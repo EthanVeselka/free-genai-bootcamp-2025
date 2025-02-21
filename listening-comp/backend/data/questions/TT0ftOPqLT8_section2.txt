@@ -1,0 +1,76 @@
+<question>
+Introduction:
+町会N 5問題2問題2では始めに質問を聞いてくださいそれから話を聞いて問題用紙の1から4の中から正しい答えを1つ選んでください
+
+Conversation:
+女の人は明日の午後何をしますか
+
+Question:
+女の人は明日の午後何をしますか
+</question>
+
+<question>
+Introduction:
+町会N 5問題2問題2では始めに質問を聞いてくださいそれから話を聞いて問題用紙の1から4の中から正しい答えを1つ選んでください
+
+Conversation:
+明日一緒に映画を見に行きませんか
+
+Question:
+明日の午後女の人は何をしますか
+</question>
+
+<question>
+Introduction:
+町会N 5問題2問題2では始めに質問を聞いてくださいそれから話を聞いて問題用紙の1から4の中から正しい答えを1つ選んでください
+
+Conversation:
+ちょっと忙しいですか
+
+Question:
+女の人は明日の午後何をしますか
+</question>
+
+<question>
+Introduction:
+町会N 5問題2問題2では始めに質問を聞いてくださいそれから話を聞いて問題用紙の1から4の中から正しい答えを1つ選んでください
+
+Conversation:
+朝は洗濯したり部屋を掃除したりします
+
+Question:
+明日の午後女の人は何をしますか
+</question>
+
+<question>
+Introduction:
+町会N 5問題2問題2では始めに質問を聞いてくださいそれから話を聞いて問題用紙の1から4の中から正しい答えを1つ選んでください
+
+Conversation:
+来週はテストもありますよね
+
+Question:
+明日の午後女の人は何をしますか
+</question>
+
+<question>
+Introduction:
+町会N 5問題2問題2では始めに質問を聞いてくださいそれから話を聞いて問題用紙の1から4の中から正しい答えを1つ選んでください
+
+Conversation:
+来週の月曜日ですよ
+
+Question:
+明日の午後女の人は何をしますか
+</question>
+
+<question>
+Introduction:
+町会N 5問題2問題2では始めに質問を聞いてくださいそれから話を聞いて問題用紙の1から4の中から正しい答えを1つ選んでください
+
+Conversation:
+午後は勉強します
+
+Question:
+明日の午後女の人は何をしますか
+</question>

@@ -1,0 +1,239 @@
+<question>
+Introduction:
+夜隣の家の人に会いました
+
+Conversation:
+A: こんにちは
+B: こんにちは
+
+Question:
+AはBに会いましたときに何と言いましたか
+</question>
+
+<question>
+Introduction:
+友達のノートを借りたいです
+
+Conversation:
+A: ノート貸してくださいますか
+B: ノート貸しません
+
+Question:
+AはBにノートを借りたいときに何と言いましたか
+</question>
+
+<question>
+Introduction:
+寒いです
+
+Conversation:
+A: 窓を閉めたいです
+B: 窓を閉めてください
+
+Question:
+AはBに窓を閉めたいときに何と言いましたか
+</question>
+
+<question>
+Introduction:
+友達の本をなくしました
+
+Conversation:
+A: 失礼でした
+B: ごめんなさい
+
+Question:
+AはBに本をなくしたときに何と言いましたか
+</question>
+
+<question>
+Introduction:
+友達のお母さんに初めて会いました
+
+Conversation:
+A: こちらこそリンと申します
+B: 初めましてリンと申します
+
+Question:
+AはBに初めて会いましたときに何と言いましたか
+</question>
+
+<question>
+Introduction:
+友達と散歩に行きたいです
+
+Conversation:
+A: 散歩に行きましょう
+B: 散歩に行くでしょう
+
+Question:
+AはBに散歩に行くときに何と言いましたか
+</question>
+
+<question>
+Introduction:
+友達の辞書を借りて返します
+
+Conversation:
+A: 辞書どうぞ
+B: 辞書どうもありがとう
+
+Question:
+AはBに辞書を借りるときに何と言いましたか
+</question>
+
+<question>
+Introduction:
+コーヒーをもう飲みたくありません
+
+Conversation:
+A: たくさんください
+B: 結構です
+
+Question:
+AはBにコーヒーをもう飲みたいときに何と言いましたか
+</question>
+
+<question>
+Introduction:
+朝友達に会いました
+
+Conversation:
+A: おはよう
+B: こんにちは
+
+Question:
+AはBに会いましたときに何と言いましたか
+</question>
+
+<question>
+Introduction:
+机の上を綺麗にしたいです
+
+Conversation:
+A: 机に物を置かないでしょう
+B: 机に物を置かでください
+
+Question:
+AはBに机の上を綺麗にしたいときに何と言いましたか
+</question>
+
+<question>
+Introduction:
+ご飯を全部食べました
+
+Conversation:
+A: ごめんなさい
+B: ごちそうさでした
+
+Question:
+AはBにご飯を食べたときに何と言いましたか
+</question>
+
+<question>
+Introduction:
+授業が終わって帰ります
+
+Conversation:
+A: 先生さようなら
+B: 先生いらっしゃいませ
+
+Question:
+AはBに授業が終わったときに何と言いましたか
+</question>
+
+<question>
+Introduction:
+エレベーターが開きました
+
+Conversation:
+A: お先に
+B: 初めまして
+
+Question:
+AはBにエレベーターが開いたときに何と言いましたか
+</question>
+
+<question>
+Introduction:
+バスが学校前に行くか聞きたいです
+
+Conversation:
+A: 学校前に止まりますか
+B: 学校前になりますか
+
+Question:
+AはBにバスが学校前に行くときに何と言いましたか
+</question>
+
+<question>
+Introduction:
+会社で仕事をして帰ります
+
+Conversation:
+A: お元気で
+B: お帰りなさい
+
+Question:
+AはBに会社で仕事をしたときに何と言いましたか
+</question>
+
+<question>
+Introduction:
+友達と映画を見たいです
+
+Conversation:
+A: Aが一緒に見ませんでした
+B: Aが一緒に見るでしょう
+
+Question:
+AはBに映画を見たいときに何と言いましたか
+</question>
+
+<question>
+Introduction:
+喫茶店でお店の人に紅茶を頼みます
+
+Conversation:
+A: 紅茶お願いします
+B: 紅茶ありがとう
+
+Question:
+AはBに紅茶を頼んだときに何と言いましたか
+</question>
+
+<question>
+Introduction:
+トイレに行きたいです
+
+Conversation:
+A: トイレはどこですか
+B: トイレをくださいません
+
+Question:
+AはBにトイレに行くときに何と言いましたか
+</question>
+
+<question>
+Introduction:
+次の電車の時間を知りたいです
+
+Conversation:
+A: 次の電車はいくらですか
+B: 次の電車は何分に来ますか
+
+Question:
+AはBに次の電車の時間を知りたいときに何と言いましたか
+</question>
+
+<question>
+Introduction:
+子供がうるさいです
+
+Conversation:
+A: 静かにしてください
+B: 静かにしないでください
+
+Question:
+AはBに子供がうるさいときに何と言いましたか
+</question>

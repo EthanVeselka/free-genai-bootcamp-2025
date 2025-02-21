@@ -1,0 +1,71 @@
+<question>
+Situation:
+　　　　2人は明日何時に会えますか
+
+Question:
+　　　　何と言いますか
+</question>
+
+<question>
+Situation:
+　　　　男の人は京都で何をしましたか
+
+Question:
+　　　　何と言いますか
+</question>
+
+<question>
+Situation:
+　　　　男の人はどこで待ちますか
+
+Question:
+　　　　何と言いますか
+</question>
+
+<question>
+Situation:
+　　　　学生は今日家でどこを勉強しますか
+
+Question:
+　　　　何と言いますか
+</question>
+
+<question>
+Situation:
+　　　　公園で先生が学生に話しています学生ははじめに何をしますか
+
+Question:
+　　　　何と言いますか
+</question>
+
+<question>
+Situation:
+　　　　男の人は何を買ってきましたか
+
+Question:
+　　　　何と言いますか
+</question>
+
+<question>
+Situation:
+　　　　今日は何曜日ですか
+
+Question:
+　　　　何と言いますか
+</question>
+
+<question>
+Situation:
+　　　　絵を見ながら質問を聞いてください
+
+Question:
+　　　　矢印の人は何と言いますか
+</question>
+
+<question>
+Situation:
+　　　　1から3の中から一番いいものを一つ選んでください
+
+Question:
+　　　　何と言いますか
+</question>

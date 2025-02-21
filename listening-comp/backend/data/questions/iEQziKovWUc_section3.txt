@@ -1,0 +1,55 @@
+<question>
+Situation:
+女の人と男の人が話しています 男の人はどれを取ります か
+
+Question:
+何と言いますか
+</question>
+
+<question>
+Situation:
+教室で先生が話しています 学生は明日何を持ってきます か
+
+Question:
+何と言いますか
+</question>
+
+<question>
+Situation:
+会社で女の人と男の人が話しています 男の人は何を消します か
+
+Question:
+何と言いますか
+</question>
+
+<question>
+Situation:
+料理のクラスで女の先生と男の学生が話しています 男の学生はこの後すぐ何をします か
+
+Question:
+何と言いますか
+</question>
+
+<question>
+Situation:
+病院で医者と女の人が話しています 女の人は来週いつ病院へ来ます か
+
+Question:
+何と言いますか
+</question>
+
+<question>
+Situation:
+男の人と女の人が話しています 男の人はどこに行きます か
+
+Question:
+何と言いますか
+</question>
+
+<question>
+Situation:
+大学で男の学生と女の人が話しています この後男の学生はどこへ行きます か
+
+Question:
+何と言いますか
+</question>
