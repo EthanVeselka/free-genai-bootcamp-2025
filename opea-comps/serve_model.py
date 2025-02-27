@@ -156,4 +156,3 @@ if __name__ == "__main__":
     example = ExampleService()
     example.add_remote_service()
     example.start()
-
