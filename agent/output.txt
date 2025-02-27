@@ -1,0 +1,116 @@
+Here is the corrected vocabulary list with proper kanji characters:
+
+[
+{
+"word": "大きい",
+"category": "sizes",
+"kanji": "大きい",
+"romaji": "ookii",
+"english": "big",
+"parts": [
+{ "kanji": "大", "romaji": ["oo"] },
+{ "kanji": "き", "romaji": ["ki"] },
+{ "kanji": "い", "romaji": ["i"] }
+]
+},
+{
+"word": "すごい",
+"category": "descriptions",
+"kanji": "すごい",
+"romaji": "sugoi",
+"english": "amazing",
+"parts": [
+{ "kanji": "す", "romaji": ["su"] },
+{ "kanji": "ご", "romaji": ["go"] },
+{ "kanji": "い", "romaji": ["i"] }
+]
+},
+{
+"word": "寒い",
+"category": "temperatures",
+"kanji": "寒い",
+"romaji": "samui",
+"english": "cold",
+"parts": [
+{ "kanji": "寒", "romaji": ["samu"] },
+{ "kanji": "い", "romaji": ["i"] }
+]
+},
+{
+"word": "長い",
+"category": "lengths",
+"kanji": "長い",
+"romaji": "nagai",
+"english": "long",
+"parts": [
+{ "kanji": "長", "romaji": ["naga"] },
+{ "kanji": "い", "romaji": ["i"] }
+]
+},
+{
+"word": "速い",
+"category": "speeds",
+"kanji": "速い",
+"romaji": "hayai",
+"english": "fast",
+"parts": [
+{ "kanji": "速", "romaji": ["haya"] },
+{ "kanji": "い", "romaji": ["i"] }
+]
+},
+{
+"word": "楽しい",
+"category": "feelings",
+"kanji": "楽しい",
+"romaji": "tanoshii",
+"english": "fun",
+"parts": [
+{ "kanji": "楽", "romaji": ["tanoshi"] },
+{ "kanji": "い", "romaji": ["i"] }
+]
+},
+{
+"word": "青い",
+"category": "colors",
+"kanji": "青い",
+"romaji": "aoi",
+"english": "blue",
+"parts": [
+{ "kanji": "青", "romaji": ["ao"] },
+{ "kanji": "い", "romaji": ["i"] }
+]
+},
+{
+"word": "狭い",
+"category": "widths",
+"kanji": "狭い",
+"romaji": "semai",
+"english": "narrow",
+"parts": [
+{ "kanji": "狭", "romaji": ["sema"] },
+{ "kanji": "い", "romaji": ["i"] }
+]
+},
+{
+"word": "新しい",
+"category": "ages",
+"kanji": "新しい",
+"romaji": "atarashii",
+"english": "new",
+"parts": [
+{ "kanji": "新", "romaji": ["atarashi"] },
+{ "kanji": "い", "romaji": ["i"] }
+]
+},
+{
+"word": "高い",
+"category": "heights",
+"kanji": "高い",
+"romaji": "takai",
+"english": "tall",
+"parts": [
+{ "kanji": "高", "romaji": ["taka"] },
+{ "kanji": "い", "romaji": ["i"] }
+]
+}
+]

@@ -38,7 +38,7 @@ class ExampleService:
         # Load the model with more aggressive memory settings
         self.model = LLM(
             model=MODEL_NAME,
-            gpu_memory_utilization=0.98,  # Use almost all GPU memory
+            gpu_memory_utilization=0.90,  # Use almost all GPU memory
             tensor_parallel_size=1,
             max_model_len=2048,          # Further reduced max sequence length
             max_num_batched_tokens=2048,  # Reduced batch size
@@ -152,7 +152,8 @@ class ExampleService:
             raise HTTPException(status_code=500, detail=str(e))
 
 # Initialize and start the service
-example = ExampleService()
-example.add_remote_service()
-example.start()
+if __name__ == "__main__":
+    example = ExampleService()
+    example.add_remote_service()
+    example.start()
 

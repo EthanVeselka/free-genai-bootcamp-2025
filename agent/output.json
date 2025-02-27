@@ -1,0 +1,559 @@
+{
+  "song_info": {
+    "title": "Unlasting",
+    "artist": "LiSA",
+    "language": "Japanese"
+  },
+  "lyrics": "[Verse 1]\n一人をきりでも\n干当とこるょくにちてる応がり\n二人の眩しすぎた日が\nこんなに悲しい\n\n[Pre-Chorus]\n一人で生きられるなら\n出会かにあなたを愛したりいから\n\n[Chorus]\nあなたの話し方 あなたの聊務教\n今も体中に 愛の一覧がりってるよ\n私の悲し 私の悲しはただ\n記こにちてく あなたも何野で 歡っているなで ありますように\n\n[Verse 2]\n今も新しい一歩は\n重くて寂しい\n\n[Pre-Chorus]\n本当や出かりっても\n一度あなたに出会いたい\n\n[Chorus]\n駜年の日差し 窈曇の白い交\nめぐる季節中に 愛の一覧が舞い落ちて\n幸せなの中で ありますように\n楓後なに 議心の大きだ\n\n",
+  "vocabulary_categories": [
+    {
+      "emotions": [
+        {
+          "kanji": "市度しい",
+          "romaji": "hontou ni kanashii",
+          "english": "really sad",
+          "parts": [
+            {
+              "kanji": "市",
+              "romaji": [
+                "hon"
+              ]
+            },
+            {
+              "kanji": "度",
+              "romaji": [
+                "tou"
+              ]
+            },
+            {
+              "kanji": "し",
+              "romaji": [
+                "ni"
+              ]
+            },
+            {
+              "kanji": "悲",
+              "romaji": [
+                "ka"
+              ]
+            },
+            {
+              "kanji": "し",
+              "romaji": [
+                "na"
+              ]
+            },
+            {
+              "kanji": "い",
+              "romaji": [
+                "shi"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "people": [
+        {
+          "kanji": "一人",
+          "romaji": "hito",
+          "english": "person",
+          "parts": [
+            {
+              "kanji": "一",
+              "romaji": [
+                "hi"
+              ]
+            },
+            {
+              "kanji": "人",
+              "romaji": [
+                "to"
+              ]
+            }
+          ]
+        },
+        {
+          "kanji": "二人",
+          "romaji": "anata",
+          "english": "you",
+          "parts": [
+            {
+              "kanji": "二",
+              "romaji": [
+                "a"
+              ]
+            },
+            {
+              "kanji": "人",
+              "romaji": [
+                "na"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "kanji": "干当",
+          "romaji": "shinjiru",
+          "english": "to believe",
+          "parts": [
+            {
+              "kanji": "干",
+              "romaji": [
+                "shi"
+              ]
+            },
+            {
+              "kanji": "当",
+              "romaji": [
+                "nju"
+              ]
+            }
+          ]
+        },
+        {
+          "kanji": "生きられ",
+          "romaji": "ikiru",
+          "english": "to live",
+          "parts": [
+            {
+              "kanji": "生",
+              "romaji": [
+                "i"
+              ]
+            },
+            {
+              "kanji": "き",
+              "romaji": [
+                "ki"
+              ]
+            },
+            {
+              "kanji": "ら",
+              "romaji": [
+                "ru"
+              ]
+            },
+            {
+              "kanji": "れ",
+              "romaji": [
+                "ru"
+              ]
+            }
+          ]
+        },
+        {
+          "kanji": "出会",
+          "romaji": "tsuuchou",
+          "english": "to pass through",
+          "parts": [
+            {
+              "kanji": "出",
+              "romaji": [
+                "tsu"
+              ]
+            },
+            {
+              "kanji": "会",
+              "romaji": [
+                "uu"
+              ]
+            },
+            {
+              "kanji": "の",
+              "romaji": [
+                "cho"
+              ]
+            },
+            {
+              "kanji": "い",
+              "romaji": [
+                "ou"
+              ]
+            }
+          ]
+        },
+        {
+          "kanji": "話し",
+          "romaji": "tsuyosa",
+          "english": "power",
+          "parts": [
+            {
+              "kanji": "話",
+              "romaji": [
+                "tsuy"
+              ]
+            },
+            {
+              "kanji": "し",
+              "romaji": [
+                "o"
+              ]
+            },
+            {
+              "kanji": "た",
+              "romaji": [
+                "sa"
+              ]
+            }
+          ]
+        },
+        {
+          "kanji": "聊務教",
+          "romaji": "oujou",
+          "english": "queen",
+          "parts": [
+            {
+              "kanji": "聊",
+              "romaji": [
+                "ou"
+              ]
+            },
+            {
+              "kanji": "務",
+              "romaji": [
+                "jou"
+              ]
+            }
+          ]
+        },
+        {
+          "kanji": "今も",
+          "romaji": "arigatou",
+          "english": "thank you",
+          "parts": [
+            {
+              "kanji": "今",
+              "romaji": [
+                "ari"
+              ]
+            },
+            {
+              "kanji": "も",
+              "romaji": [
+                "ga"
+              ]
+            },
+            {
+              "kanji": "わ",
+              "romaji": [
+                "to"
+              ]
+            }
+          ]
+        },
+        {
+          "kanji": "新し",
+          "romaji": "atara",
+          "english": "new",
+          "parts": [
+            {
+              "kanji": "新",
+              "romaji": [
+                "a"
+              ]
+            },
+            {
+              "kanji": "し",
+              "romaji": [
+                "ta"
+              ]
+            },
+            {
+              "kanji": "い",
+              "romaji": [
+                "ra"
+              ]
+            }
+          ]
+        },
+        {
+          "kanji": "重くて",
+          "romaji": "shizuka",
+          "english": "calm",
+          "parts": [
+            {
+              "kanji": "重",
+              "romaji": [
+                "shi"
+              ]
+            },
+            {
+              "kanji": "く",
+              "romaji": [
+                "zu"
+              ]
+            },
+            {
+              "kanji": "て",
+              "romaji": [
+                "ka"
+              ]
+            }
+          ]
+        },
+        {
+          "kanji": "寂し",
+          "romaji": "kawaii",
+          "english": "cute",
+          "parts": [
+            {
+              "kanji": "寂",
+              "romaji": [
+                "ka"
+              ]
+            },
+            {
+              "kanji": "く",
+              "romaji": [
+                "wa"
+              ]
+            },
+            {
+              "kanji": "し",
+              "romaji": [
+                "i"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "states": [
+        {
+          "kanji": "眩しす",
+          "romaji": "kanae",
+          "english": "hope",
+          "parts": [
+            {
+              "kanji": "眩",
+              "romaji": [
+                "ka"
+              ]
+            },
+            {
+              "kanji": "し",
+              "romaji": [
+                "na"
+              ]
+            },
+            {
+              "kanji": "す",
+              "romaji": [
+                "e"
+              ]
+            }
+          ]
+        },
+        {
+          "kanji": "日が",
+          "romaji": "kako",
+          "english": "past",
+          "parts": [
+            {
+              "kanji": "日",
+              "romaji": [
+                "ka"
+              ]
+            },
+            {
+              "kanji": "が",
+              "romaji": [
+                "ko"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expressions": [
+        {
+          "kanji": "こんなに",
+          "romaji": "yappari",
+          "english": "actually",
+          "parts": [
+            {
+              "kanji": "こ",
+              "romaji": [
+                "ya"
+              ]
+            },
+            {
+              "kanji": "な",
+              "romaji": [
+                "ppa"
+              ]
+            },
+            {
+              "kanji": "に",
+              "romaji": [
+                "ri"
+              ]
+            }
+          ]
+        },
+        {
+          "kanji": "悲しい",
+          "romaji": "kanashii",
+          "english": "sad",
+          "parts": [
+            {
+              "kanji": "悲",
+              "romaji": [
+                "ka"
+              ]
+            },
+            {
+              "kanji": "し",
+              "romaji": [
+                "na"
+              ]
+            },
+            {
+              "kanji": "い",
+              "romaji": [
+                "shi"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pronouns": [
+        {
+          "kanji": "今も新しい",
+          "romaji": "atarashii kotoba",
+          "english": "new words",
+          "parts": [
+            {
+              "kanji": "今",
+              "romaji": [
+                "a"
+              ]
+            },
+            {
+              "kanji": "も",
+              "romaji": [
+                "ta"
+              ]
+            },
+            {
+              "kanji": "新",
+              "romaji": [
+                "ra"
+              ]
+            },
+            {
+              "kanji": "し",
+              "romaji": [
+                "shi"
+              ]
+            },
+            {
+              "kanji": "い",
+              "romaji": [
+                "i"
+              ]
+            },
+            {
+              "kanji": "わ",
+              "romaji": [
+                "bo"
+              ]
+            },
+            {
+              "kanji": "こ",
+              "romaji": [
+                "wa"
+              ]
+            },
+            {
+              "kanji": "な",
+              "romaji": [
+                "ba"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "interjections": [
+        {
+          "kanji": "記こにちてく",
+          "romaji": "wakannai",
+          "english": "I don't know",
+          "parts": [
+            {
+              "kanji": "記",
+              "romaji": [
+                "wa"
+              ]
+            },
+            {
+              "kanji": "こ",
+              "romaji": [
+                "ka"
+              ]
+            },
+            {
+              "kanji": "に",
+              "romaji": [
+                "n"
+              ]
+            },
+            {
+              "kanji": "も",
+              "romaji": [
+                "na"
+              ]
+            },
+            {
+              "kanji": "し",
+              "romaji": [
+                "i"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adverbs": [
+        {
+          "kanji": "幸せなの中",
+          "romaji": "yuuki ni",
+          "english": "courageously",
+          "parts": [
+            {
+              "kanji": "幸",
+              "romaji": [
+                "yuu"
+              ]
+            },
+            {
+              "kanji": "せ",
+              "romaji": [
+                "ki"
+              ]
+            },
+            {
+              "kanji": "な",
+              "romaji": [
+                "ni"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
